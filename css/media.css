@@ -1,26 +1,428 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+    .masonary_grid{
+        column-count:1;
+    }
+    .ss_title{
+        font-size: 30px;
+    }
+    .about_me, .services, .my_skills, .my-portfolio, .counter_section, .client-testimonial {
+        padding:40px 0;
+      }
+    .my-menus li a:hover::after{
+        top:14px;
+    }
+    .section_title {
+        line-height: 1.2;
+    }
+    .lines {
+        position: absolute;
+        height:99%;
+    }
+    .line:nth-child(1) {
+        margin-left: -53%;
+    }
+    .line:nth-child(3) {
+        margin-left: 53%;
+    }
+    .container {
+        padding-left:12px !important;
+        padding-right:12px !important;
+    }
+    .slider-caption {
+        padding-top: 42px;
+        padding-bottom: 130px;
+    }
+    .slider-caption h1 {
+        font-size: 26px;
+        line-height: 10px;
+    }
+    .rahat_banner{
+        margin-top:100px;
+    }
+    .btn-shine {
+        padding-bottom: 6px;
+        font-size: 20px;
+    }
+    .container .box .title h1 {
+        font-size:29px;
+        margin-bottom: 0;
+    }
+    .slider-caption h1 span {
+        font-size: 19px;
+    }
+    .c_main_icon span::after {
+        left: -4px;
+        top: -4px;
+        width: 63px;
+        height: 63px;
+    }
+    .about_me_content {
+        margin-top: 50px;
+    }
+    .about_me_content h1 {
+        font-size: 23px;
+    }
+    .service_single_item {
+        padding: 35px 22px;
+    }
+    .skill-items{
+        margin-top: 40px;
+    }
+    #portfolio .portfolio-hover {
+        top:3%;  
+    }
+    #portfolio .portfolio-hover h4 {
+        font-size:18px;
+        margin: 5px 0 2px; 
+    }
+    #portfolio .portfolio-hover p {
+        font-size: 13px;
+    }
+    #portfolio .portfolio-hover .button a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .progress-number-mark {
+        padding: 0px 8px 5px;
+       
+    }
+    .progress-wrap {
+        right: 14px;
+        bottom: 15px; 
+    }
+    #portfolio .portfolio-nav ul li {
+        margin-bottom: 10px;
+        margin-right: 0px;
+        padding: 6px 8px;
+    }
+    #portfolio .portfolio-nav ul li i {
+        margin-right: 10px;
+    }
+/*===========My Resume ============*/
+
+.timeline ul li .timeline-content {
+    margin: 12px 0;
+}
+.timeline {
+    margin-top: 40px;
+}
+.timeline:before {
+    top: -36px;
+}
+.timeline ul li {
+    margin-bottom: 48px;
+}
+.timeline ul li:before {
+    top: -37px;
+}
+.timeline ul li:nth-child(even) .timeline-content,
+.timeline ul li:nth-child(odd) .timeline-content {
+    width: 100%;
+    float: none;
+}
+
+.timeline ul li:nth-child(even) .timeline-content:before,
+.timeline ul li:nth-child(odd) .timeline-content:before {
+    top: -19px;
+    border-color: transparent transparent #fc4e1c  transparent;
+}
+.timeline ul li:nth-child(even) .timeline-content:before {
+    left: 50%;
+    margin-left: -12px;
+}
+
+.timeline ul li:nth-child(odd) .timeline-content:before {
+    right: 50%;
+    margin-right: -12px;
+}
+.sm-pb-none{
+    padding-bottom: 0 !important;
+}
+    .counter_section span {
+        font-size: 30px;
+     
+    }
+    .c_item{
+        margin-top: 50px;
+    }
+    .testimonial-item {
+        margin: 20px 0px;
+        padding: 36px 16px;
+    }
+      
+    .contact-box .title-box .icon-box::after {
+        display: none;
+    }
+    .contact-form {
+        padding: 10px 0px; 
+    }
  
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
+    .my-menus li a:hover::after{
+        top:14px;
+    }
+    .about_me, .services, .my_skills, .my-portfolio, .counter_section, .client-testimonial {
+        padding: 60px 0;
+      }
+    .line:nth-child(1) {
+        margin-left: -53%;
+    }
+    .line:nth-child(3) {
+        margin-left: 53%;
+    }
+    .container {
+        padding-left:0px !important;
+        padding-right:0px !important;
+    }
+    .slider-caption {
+       padding-top: 160px;
+       padding-bottom: 150px;
+    }
+    .slider-caption h1 {
+        font-size: 36px;
+    }
+    .container .box .title h1 {
+        font-size: 50px;
+    }
+    .about_me_content {
+        margin-top: 50px;
+    }
+    .service_single_item {
+        padding: 35px 30px;
+    }
+    .skill-items{
+        margin-top: 40px;
+    }
+    #portfolio .portfolio-hover {
+        top:20%;  
+    }
+    #portfolio .portfolio-hover .button a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+   
+    .progress-number-mark {
+        padding: 0px 8px 5px;
+       
+    }
+    #portfolio .portfolio-nav ul li {
+        margin-bottom: 10px;
+        margin-right: 6px;
+        padding: 6px 13px;
+     
+    }
+    /*================My Resume ====================*/
+  .my-resumes {
+    padding-top: 50px
+  }
+  .timeline ul li .timeline-content {
+    margin: 12px 0;
+  }
+  .timeline {
+     margin-top: 40px;
+  }  
+  .timeline:before {
+     top: -36px;
+  }
+  .timeline ul li {
+     margin-bottom: 48px;
+  }
+  .timeline ul li:before {
+    top: -37px;
+  } 
+  .timeline ul li:nth-child(even) .timeline-content,
+  .timeline ul li:nth-child(odd) .timeline-content {
+    width: 100%;
+    float: none;
+  }
+    
+  .timeline ul li:nth-child(even) .timeline-content:before,
+  .timeline ul li:nth-child(odd) .timeline-content:before {
+    top: -19px;
+    border-color: transparent transparent #fc4e1c  transparent;
+  }
+  .timeline ul li:nth-child(even) .timeline-content:before {
+    left: 50%;
+    margin-left: -12px;
+  } 
+  .timeline ul li:nth-child(odd) .timeline-content:before {
+    right: 50%;
+    margin-right: -12px;
+  }
+    .c_item{
+        margin-top: 50px;
+    }
+    .contact-box .title-box .icon-box::after {
+        display: none;
+    }
    
  }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-   
+    .my-menus li a:hover::after{
+        top:14px;
+    }
+    .about_me, .services, .my_skills, .my-portfolio, .counter_section, .client-testimonial {
+        padding: 70px 0;
+      }
+    .line:nth-child(1) {
+        margin-left: -53%;
+    }
+    .line:nth-child(3) {
+        margin-left: 53%;
+    }
+    .container {
+        padding-left:0px !important;
+        padding-right:0px !important;
+    }
+    .slider-caption {
+       padding-top: 170px;
+       padding-bottom: 150px;
+    }
+    .slider-caption h1 {
+        font-size: 44px;
+    }
+    .about_me_content {
+        margin-top: 50px;
+    }
+    .service_single_item {
+        padding: 35px 30px;
+    }
+    .skill-items{
+        margin-top: 40px;
+    }
+    #portfolio .portfolio-hover {
+        top:7%;  
+    }
+    #portfolio .portfolio-hover h4 {
+        font-size:18px;
+        margin: 5px 0 2px; 
+    }
+    #portfolio .portfolio-hover .button a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    #portfolio .portfolio-hover p {
+        font-size: 13px;
+    }
+    .progress-number-mark {
+        padding: 0px 8px 5px;  
+    }
+    #portfolio .portfolio-nav ul li {
+        margin-bottom: 10px;
+        margin-right: 6px;
+        padding: 6px 13px;
+    }
+  
  }
 
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .my-default-menu__navigation .my-menus > li > a {
+        font-size: 14px;
+        color: #fff;
+    }
+    .my-menus li a:hover::after{
+        top:14px;
+    }
+    .line:nth-child(1) {
+        margin-left: -53%;
+    }
+    .line:nth-child(3) {
+        margin-left: 53%;
+    }
+    .container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .container .box .title h1 {
+        font-size: 52px; 
+    }
+    .slider-caption {
+        padding: 200px 0;
+    }
+    .slider-caption h1 {
+        font-size: 44px;
+        line-height: 24px;
+    }
+    .c_main_icon span {
+        height: 46px;
+        width: 46px;
+        line-height: 46px;  
+    }
+    .c_main_icon span::after {
+        left: -4px;
+        top: -4px;
+        width: 54px;
+        height: 54px; 
+    }
+    .about_me_content h1 {
+        font-size: 33px;
+    }
+    .about_me_content p{
+        text-align: justify;
+    }
+    #portfolio .portfolio-hover {
+        top: 0%;  
+    }
+    #portfolio .portfolio-hover h4 {
+        font-size:18px;
+        margin: 5px 0 2px; 
+    }
+    #portfolio .portfolio-hover .button a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    #portfolio .portfolio-hover p {
+        font-size: 13px;
+    }
+    .progress-number-mark {
+        padding: 0px 8px 5px;  
+    }
+    #portfolio .portfolio-nav ul li {
+        margin-right: 6px;
+        padding: 6px 13px;     
+    }
+    .testimonial-item {
+        padding: 50px 32px;
+     
+    }
     
  }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1399.98px) { 
-   
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  
+    /* services media css start */
+    .service_single_item {
+        padding: 35px 35px;
+    }
+    /* services media css end */
+    #portfolio .portfolio-hover {
+        top:4%;  
+    }
+    #portfolio .portfolio-hover h4 {
+        font-size:18px;
+        margin: 5px 0 2px; 
+    }
+    #portfolio .portfolio-hover .button a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    #portfolio .portfolio-hover p {
+        font-size: 14px;
+    }
+  
  }
 
  /* XX-Large devices (larger desktops, 1400px and up) */
